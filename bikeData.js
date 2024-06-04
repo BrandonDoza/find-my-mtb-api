@@ -64,6 +64,22 @@ bikeData = [
     favorite: false,
   },
   {
+    id: 20,
+    make: "Santa Cruz",
+    model: "V10",
+    suspensionTravel: 215,
+    wheelSize: "29",
+    ridingStyle: "Downhill",
+    terrain: "Bike Park",
+    skillLevel: "Advanced",
+    price: 8500,
+    description:
+      "The Santa Cruz V10 is a high-performance downhill mountain bike built for speed and stability. It's designed to handle the most challenging terrain with ease, making it the perfect choice for riders who demand the best.",
+    imageUrl:
+      "https://images.prismic.io/santacruzbikesstatic/1ddbc031-5893-4cb6-b799-88a3929dbc7d_MY24_V10_8_profile_mobile.jpg?auto=compress,format",
+    favorite: false,
+  },
+  {
     id: 5,
     make: "Ibis",
     model: "Exie",
@@ -76,7 +92,7 @@ bikeData = [
     description:
       "The Exie USA is a World-Cup winning cross-country race bike that flat out shreds. With a sub 2,000g frame weight and dw-link suspension, it offers a stunning combination of pedaling efficiency and downhill performance. We designed, built, and test­ed it in our Santa Cruz factory, which is pow­ered by the warm Cal­i­for­nia sunshine.",
     imageUrl:
-      "https://assets-ibiscycles-com.s3.amazonaws.com/images/Bikes/Exie-USA-Rebrand/exie-usa-rebrand-1400-build-xt.png",
+      "https://ibiscycles.imgix.net/images/Bikes/Exie-for-All-Rebrand/Ibis-Exie-For-All-Front-Quarter-White.jpg?fit=clip&q=90&w=800&s=852015c30641c1b6d5b409a82d9dc256",
     favorite: false,
   },
   {
@@ -92,7 +108,7 @@ bikeData = [
     description:
       "The Ripley is our snappy, flickable, playful, fast, lightweight, and versatile 29” trail bike Its combination of modern geometry, a stiff lightweight carbon chassis, and 120mm of ultra efficient dw-link travel, means it’s equally happy popping off bonus lines as it is crushing all day epics.",
     imageUrl:
-      "https://assets-ibiscycles-com.s3.amazonaws.com/images/Bikes/Ripley-V4S/Builder/ripley5-22-1400-build-slx.png",
+      "https://ibiscycles.imgix.net/images/Bikes/Ripley-V4S/Learn/Ripley-Siren-X01.jpg?fit=clip&q=90&w=800&s=07819c859490ac95a8e4a5f853e597d0",
     favorite: false,
   },
   {
@@ -108,7 +124,7 @@ bikeData = [
     description:
       "What if we took everybody’s favorite bike and made it a little slacker and little longer? Hell, what if we made it more progressive and coil compatible? And that’s exactly what we did for the Ripmo V2S. Active ingredients include: 29” wheels, berm-defying cornering tendencies, and a love for long rides.",
     imageUrl:
-      "https://assets-ibiscycles-com.s3.amazonaws.com/images/Bikes/Ripmo-V2S/Builder/ripmo-22-gx.png",
+      "https://ibiscycles.imgix.net/images/Bikes/Ripmo-AF-UDH/Complete/RipmoAF-UDH-CinnabonBronze-SLX-FrontQuarter.jpg?fit=clip&q=90&w=800&s=71d5cf4a05830d08f72f6650ae3373c9",
     favorite: false,
   },
   {
@@ -124,7 +140,7 @@ bikeData = [
     description:
       "The HD6 is the evolution of one of the most successful enduro bikes in history. Designed with input from our Enduro World Cup team and building upon our award-winning Ripmo and HD lines, the HD6 features increased travel, a completely redesigned suspension layout, and mixed wheels.",
     imageUrl:
-      "https://assets-ibiscycles-com.s3.amazonaws.com/images/Bikes/HD6/dv9-gx-1600-260923.png",
+      "https://ibiscycles.imgix.net/images/Bikes/HD6/Studio/Ibis-HD6-Side-Profile-1.jpg?fit=clip&q=90&w=800&s=a9663bfa203e1206f4aebfc5cbca5d7d",
     favorite: false,
   },
   {
@@ -268,7 +284,7 @@ bikeData = [
     description:
       "The Cannondale Habit Carbon 2 is a versatile trail bike that combines agility and stability. It's designed for all-around trail riding with responsive handling and balanced suspension.",
     imageUrl:
-      "https://embed.widencdn.net/img/dorelrl/fv4ors7fdz/1100px@1x/C23_C58102U_Habit_DTE_3Q.webp?color=ddf4f7&q=99",
+      "https://embed.widencdn.net/img/dorelrl/8ayvhjvghd/1100px@1x/C23_C23201U_Habit_Crb_2_MGO_PD.webp?color=FEFAF0&q=99",
     favorite: false,
   },
   {
@@ -284,7 +300,7 @@ bikeData = [
     description:
       "The Cannondale Jekyll 2 is an aggressive enduro bike built for big mountain riding. With its advanced suspension system and progressive geometry, it excels on the most demanding trails.",
     imageUrl:
-      "https://embed.widencdn.net/img/dorelrl/ovznget0qp/1100px@1x/C21_C21202U_Jekyll_2_GRA_3Q.webp?color=eff2f4&q=99",
+      "https://embed.widencdn.net/img/dorelrl/biearlko0t/1100px@1x/C21_C21102U_Jekyll_1_GRA_PD.webp?color=eff2f4&q=99",
     favorite: false,
   },
   {
@@ -300,26 +316,10 @@ bikeData = [
     description:
       "The Cannondale Scalpel Carbon 3 is a high-performance cross-country bike designed for speed and efficiency. It's perfect for racing and fast-paced trail riding, offering a lightweight and responsive ride.",
     imageUrl:
-      "https://embed.widencdn.net/img/dorelrl/m5ivfmuacj/1100px@1x/C22_C24102M_Scalpel_HM_ULT_TRD_3Q.webp?color=FEF3F3&q=99",
+      "https://embed.widencdn.net/img/dorelrl/fcyykd9fnk/1100px@1x/C21_C24852U_Scalpel_Crb_SE_2_BKM_PD.webp?color=E4E8EC&q=99",
     favorite: false,
   },
-  {
-    id: 20,
-    make: "Santa Cruz",
-    model: "V10",
-    suspensionTravel: 215,
-    wheelSize: "29",
-    ridingStyle: "Downhill",
-    terrain: "Bike Park",
-    skillLevel: "Advanced",
-    price: 8500,
-    description:
-      "The Santa Cruz V10 is a high-performance downhill mountain bike built for speed and stability. It's designed to handle the most challenging terrain with ease, making it the perfect choice for riders who demand the best.",
-    imageUrl:
-      "https://images.prismic.io/santacruzbikesstatic/1ddbc031-5893-4cb6-b799-88a3929dbc7d_MY24_V10_8_profile_mobile.jpg?auto=compress,format",
-    favorite: false,
-  },
-  {
+    {
     id: 21,
     make: "Rocky Mountain",
     model: "Altitude",

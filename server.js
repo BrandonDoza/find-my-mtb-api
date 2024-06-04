@@ -1,11 +1,13 @@
 const express = require("express");
+const cors = require('cors');
 const app = express();
+app.use(cors());
 
 const bikeData = require("./bikeData")
 
 app.use(express.json());
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Find My MTB';
 app.locals.bikes = bikeData;
 
@@ -30,12 +32,23 @@ app.get('/api/v1/bikes', (req, res) => {
     res.json({ bikes });
   });
 
+  app.patch('/api/v1/bikes/:id', (req, res) => {
+    const { id } = req.params;
+    const numId = parseInt(id);
+    const bike = app.locals.bikes.find(bike => bike.id === numId);
+    if (!bike) {
+      return res.sendStatus(404);
+    }
+    bike.favorite = !bike.favorite;
+    res.status(200).json({ bike });
+  });
+
 app.get('/api/v1/bikes/:id', (req, res) => {
   const { id }  = req.params;
   const numId = parseInt(id)
   const bike = app.locals.bikes.find(bike => bike.id === numId);
   if (!bike) {
-    return res.sendStatus(404).send('No bike by that id exists');
+    return res.sendStatus(404);
   }
   res.status(200).json({ bike })
 })
@@ -57,3 +70,6 @@ app.post('/api/v1/bikes', (req, res) => {
     app.locals.bikes.push({ id, favorite, make, model, suspensionTravel, wheelSize, riderAbility, price, imageUrl});
     res.status(201).json({ id, make, model, suspensionTravel, wheelSize, riderAbility, price, imageUrl, favorite});
   });
+
+  
+  
