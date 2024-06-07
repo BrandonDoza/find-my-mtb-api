@@ -29,7 +29,10 @@ app.listen(port, () => {
 
 app.get('/api/v1/bikes', (req, res) => {
     const bikes = app.locals.bikes;
-    res.json({ bikes });
+    if (!bikes) {
+    return res.sendStatus(404);
+  }
+  res.status(200).json({ bikes })
   });
 
   app.patch('/api/v1/bikes/:id', (req, res) => {
