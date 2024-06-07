@@ -64,22 +64,6 @@ bikeData = [
     favorite: false,
   },
   {
-    id: 20,
-    make: "Santa Cruz",
-    model: "V10",
-    suspensionTravel: 215,
-    wheelSize: "29",
-    ridingStyle: "Downhill",
-    terrain: "Bike Park",
-    skillLevel: "Advanced",
-    price: 8500,
-    description:
-      "The Santa Cruz V10 is a high-performance downhill mountain bike built for speed and stability. It's designed to handle the most challenging terrain with ease, making it the perfect choice for riders who demand the best.",
-    imageUrl:
-      "https://images.prismic.io/santacruzbikesstatic/1ddbc031-5893-4cb6-b799-88a3929dbc7d_MY24_V10_8_profile_mobile.jpg?auto=compress,format",
-    favorite: false,
-  },
-  {
     id: 5,
     make: "Ibis",
     model: "Exie",
@@ -215,7 +199,7 @@ bikeData = [
     wheelSize: "MX 29/27.5",
     ridingStyle: "Enduro",
     terrain: "Rocky chunky and technical",
-    skillLevel: "Intermediate Advanced",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 4000,
     description:
       "The YT Capra is a versatile enduro bike designed for aggressive trail riding and racing. With its excellent suspension and geometry, it offers exceptional performance on rough and technical terrain.",
@@ -263,7 +247,7 @@ bikeData = [
     wheelSize: "MX 29/27.5",
     ridingStyle: "Downhill",
     terrain: "Bike Park",
-    skillLevel: "Advanced",
+    skillLevel: " Beginner Intermidiate Advanced",
     price: 4500,
     description:
       "The YT Tues is a dedicated downhill bike designed to handle the most challenging descents. With its robust construction and top-tier suspension, it excels in downhill racing and extreme freeride conditions.",
@@ -311,12 +295,28 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Cross-Country",
     terrain: "Race Course",
-    skillLevel: "Intermediate Advanced",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 5000,
     description:
       "The Cannondale Scalpel Carbon 3 is a high-performance cross-country bike designed for speed and efficiency. It's perfect for racing and fast-paced trail riding, offering a lightweight and responsive ride.",
     imageUrl:
       "https://embed.widencdn.net/img/dorelrl/fcyykd9fnk/1100px@1x/C21_C24852U_Scalpel_Crb_SE_2_BKM_PD.webp?color=E4E8EC&q=99",
+    favorite: false,
+  },
+  {
+    id: 20,
+    make: "Santa Cruz",
+    model: "V10",
+    suspensionTravel: 215,
+    wheelSize: "29",
+    ridingStyle: "Downhill",
+    terrain: "Bike Park",
+    skillLevel: "Advanced",
+    price: 8500,
+    description:
+      "The Santa Cruz V10 is a high-performance downhill mountain bike built for speed and stability. It's designed to handle the most challenging terrain with ease, making it the perfect choice for riders who demand the best.",
+    imageUrl:
+      "https://www.santacruzbicycles.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsantacruzbikesstatic%2Fd9a70174-c9d3-40f0-b189-a6e4a47e8ff1_MY24_V10_CC_S_GlossRed.png%3Fauto%3Dcompress%252Cformat%26fit%3Dcrop%26ar%3D4%253A3%26crop%3Dfaces%252Cedges&w=1400&q=75",
     favorite: false,
   },
     {
@@ -327,7 +327,7 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Trail",
     terrain: "Rocky chunky and technical",
-    skillLevel: "Intermediate Advanced",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 6999,
     description:
       "The Rocky Mountain Altitude is a versatile all-mountain bike that's equally at home on technical climbs and fast descents. It features modern geometry and efficient suspension, making it ideal for riders who want one bike to do it all.",
@@ -348,7 +348,7 @@ bikeData = [
     description:
       "The Rocky Mountain Element is a high-performance cross-country bike designed for speed and efficiency. It features lightweight construction and a responsive ride, making it perfect for racing and fast-paced trail riding.",
     imageUrl:
-      "https://bikes.com/cdn/shop/files/Web_MY22_Element_C70_C1_29_Profile_81b29f5e-0ab4-48c0-9f46-43aaf113f9e2.jpg?v=1713957821&width=2880",
+      "https://bikes.com/cdn/shop/files/Web_MY23__B0208-BLACKCARBON_Element_C50_C1_29_Profile_1.jpg?v=1717616032&width=800",
     favorite: false,
   },
   {
