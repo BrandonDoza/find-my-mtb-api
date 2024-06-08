@@ -12,11 +12,6 @@ app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Find My MTB';
 app.locals.bikes = bikeData;
 
-
-// app.get('/', (req, res) => {
-//   res.send(`Welcome to ${app.locals.title}. We have ${app.locals.bikes.length} bikes available.`);
-//   console.log('app', app)
-// });
 app.get("/", (req, res) => res.send("Express on Vercel"));
 
 const port = app.get('port')
