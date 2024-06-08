@@ -33,3 +33,9 @@ Currently, the Mountain Bike API does not require authentication for accessing p
 
 Deployment
 The Mountain Bike API is hosted on Vercel, ensuring high availability and scalability. The deployment process is seamless, allowing for rapid updates and enhancements to the API functionality.
+
+## Installation
+- git clone git@github.com:BrandonDoza/find-my-mtb-api.git
+- cd find-my-mtb-api
+- npm install
+- npm start  - to run locally
