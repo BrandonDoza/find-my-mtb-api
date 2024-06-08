@@ -23,7 +23,7 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Trail",
     terrain: "Smooth and flowy with some technical rocks",
-    skillLevel: "Beginner Intermediate",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 4899,
     imageUrl:
       "https://www.santacruzbicycles.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsantacruzbikesstatic%2F6dc56878-5e6d-4e5a-a67b-e33534018ab4_MY24_TB_Orange.jpg%3Fauto%3Dcompress%2Cformat&w=1400&q=99",
@@ -106,7 +106,7 @@ bikeData = [
     skillLevel: "Intermediate Advanced",
     price: 4424,
     description:
-      "What if we took everybody’s favorite bike and made it a little slacker and little longer? Hell, what if we made it more progressive and coil compatible? And that’s exactly what we did for the Ripmo V2S. Active ingredients include: 29” wheels, berm-defying cornering tendencies, and a love for long rides.",
+      "What if we took everybody’s favorite bike and made it a little slacker and a little longer? Hell, what if we made it more progressive and coil compatible? And that’s exactly what we did for the Ripmo V2S. Active ingredients include: 29” wheels, berm-defying cornering tendencies, and a love for long rides.",
     imageUrl:
       "https://ibiscycles.imgix.net/images/Bikes/Ripmo-AF-UDH/Complete/RipmoAF-UDH-CinnabonBronze-SLX-FrontQuarter.jpg?fit=clip&q=90&w=800&s=71d5cf4a05830d08f72f6650ae3373c9",
     favorite: false,
