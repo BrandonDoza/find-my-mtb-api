@@ -87,7 +87,7 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Trail",
     terrain: "Smooth and flowy with some technical rocks",
-    skillLevel: "Beginner Intermediate",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 4199,
     description:
       "The Ripley is our snappy, flickable, playful, fast, lightweight, and versatile 29” trail bike Its combination of modern geometry, a stiff lightweight carbon chassis, and 120mm of ultra efficient dw-link travel, means it’s equally happy popping off bonus lines as it is crushing all day epics.",
@@ -135,7 +135,7 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Trail",
     terrain: "Smooth and flowy with some technical rocks",
-    skillLevel: "Beginner Intermediate",
+    skillLevel: "Beginner Intermediate Advanced",
     price: 4640,
     description:
       "Forget the numbers. Mute the speculation. Let the other guys invent cute alternatives for “cross country.” Steer clear of pigeonholes and limiting beliefs. Strap on your blinders and go get lost. Then decide what the SB120 means to you. And you alone.",
