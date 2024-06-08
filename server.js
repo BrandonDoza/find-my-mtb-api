@@ -1,10 +1,8 @@
 const express = require("express");
 const cors = require('cors');
 const app = express();
-const corsOptions = {
-  origin: 'https://find-my-mtb.vercel.app/',
-};
-app.use(cors(corsOptions));
+
+app.use(cors());
 
 const bikeData = require("./bikeData")
 
