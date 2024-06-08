@@ -12,7 +12,7 @@ Bike Features: Information about a bikes suspension travel, wheel size, suggeste
 
 Description: Get descriptive information about each mountain bike model, including its intended use, terrain compatibility, and unique selling points.
 
-Search and Filtering: Search for specific mountain bike models based on criteria such as make, model name, suspension type, wheel size, and more.
+Search and Filtering: Search for specific mountain bike models based on criteria such as rider  skill level and the terrain they'd like to ride. 
 
 ## Usage
 
