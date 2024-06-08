@@ -1,7 +1,10 @@
 const express = require("express");
 const cors = require('cors');
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: 'https://find-my-mtb.vercel.app/',
+};
+app.use(cors(corsOptions));
 
 const bikeData = require("./bikeData")
 
@@ -12,14 +15,12 @@ app.locals.title = 'Find My MTB';
 app.locals.bikes = bikeData;
 
 
-app.get('/', (req, res) => {
-  res.send(`Welcome to ${app.locals.title}. We have ${app.locals.bikes.length} bikes available.`);
-  console.log('app', app)
-});
-// could do it this way too 
-// const port = app.get('port')
-// app.listen(port, ()=> {
-//})
+// app.get('/', (req, res) => {
+//   res.send(`Welcome to ${app.locals.title}. We have ${app.locals.bikes.length} bikes available.`);
+//   console.log('app', app)
+// });
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 const port = app.get('port')
 app.listen(port, () => {
   console.log(
