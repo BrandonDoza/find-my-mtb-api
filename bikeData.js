@@ -23,12 +23,12 @@ bikeData = [
     wheelSize: "29",
     ridingStyle: "Trail",
     terrain: "Smooth and flowy with some technical rocks",
-    skillLevel: "Beginner Intermediate Advanced",
+    skillLevel: "Beginner Advanced",
     price: 4899,
     imageUrl:
       "https://www.santacruzbicycles.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsantacruzbikesstatic%2F6dc56878-5e6d-4e5a-a67b-e33534018ab4_MY24_TB_Orange.jpg%3Fauto%3Dcompress%2Cformat&w=1400&q=99",
     description:
-      "The Tallboy has earned a loyal following amongst those who seek a go-to bike that will hold up to the relentless hammering of power hour rides or riding for all-the-hours.",
+      "The Tallboy has earned a loyal following amongst those who seek a go-to bike that will hold up to the relentless hammering of power hour rides or riding for all-the-hours, while crushing the downhills too.",
     favorite: false,
   },
   {
